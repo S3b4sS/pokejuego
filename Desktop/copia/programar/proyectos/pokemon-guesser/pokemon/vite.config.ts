@@ -9,7 +9,8 @@ export default defineConfig({
   plugins: [
     vue(),
     vueJsx(),
-  ],
+ 
+  ], base:'/pokemon/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))

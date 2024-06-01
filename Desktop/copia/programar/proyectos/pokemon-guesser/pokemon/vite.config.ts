@@ -10,7 +10,7 @@ export default defineConfig({
     vue(),
     vueJsx(),
  
-  ], base:'/pokemon/',
+  ], base:'/pokejuego/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
